@@ -2,6 +2,9 @@ import React from 'react'
 import P1 from '../assets/P1.png'
 import P2 from '../assets/P2.png'
 import P3 from '../assets/P3.png'
+import P4 from '../assets/P4.png'
+import P5 from '../assets/P5.png'
+import P6 from '../assets/P6.png'
 
 const projects = [
     {
@@ -10,6 +13,7 @@ const projects = [
       technologies: "MERN Stack",
       image: P1,
       github: "https://github.com/harishraajaa/Capstone-1/tree/frontend",
+      depurl:"https://harishevents.netlify.app"
     },
     {
       id: 2,
@@ -17,6 +21,7 @@ const projects = [
       technologies: "MERN Stack",
       image: P2,
       github: "https://github.com/harishraajaa/FSD-Demo/tree/frontend",
+      depurl:"https://harishblogs.netlify.app"
     },
     {
       id: 3,
@@ -24,6 +29,31 @@ const projects = [
       technologies: "React",
       image: P3,
       github: "https://github.com/harishraajaa/Day-22/tree/landingpage?tab=readme-ov-file",
+      depurl:"https://home-harishcorp.netlify.app"
+    },
+    {
+      id: 4,
+      name: "Recipe App",
+      technologies: "MERN Stack",
+      image: P4,
+      github: "https://github.com/harishraajaa/Day-38/tree/master",
+      depurl:"https://harishfoods.netlify.app"
+    },
+    {
+      id: 5,
+      name: "UMS App",
+      technologies: "MERN Stack",
+      image: P5,
+      github: "https://github.com/harishraajaa/Day-27/tree/axios-crud",
+      depurl:"https://axioscrud-harishcorp.netlify.app"
+    },
+    {
+      id: 6,
+      name: "To-Do App",
+      technologies: "React",
+      image: P6,
+      github: "https://github.com/harishraajaa/Day-23/tree/react-todo",
+      depurl:"https://todo-harishcorp.netlify.app/"
     },
   ];
 
@@ -44,6 +74,9 @@ function Projects() {
               <a href={project.github} className="inline-block bg-gradient-to-r 
               from-green-400 to-blue-500 text-white px-4 py-2 rounded-full" target="_blank" 
               rel="noopener noreferrer">GitHub</a>
+              <a href={project.depurl} className="inline-block bg-gradient-to-r 
+              from-green-400 to-blue-500 text-white px-4 py-2 rounded-full" target="_blank" 
+              rel="noopener noreferrer">App Link</a>
             </div>
           ))}
         </div>

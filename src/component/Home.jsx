@@ -17,9 +17,11 @@ function home() {
         </p>
         <div className='mt-8 space-x-4'>
             <button
+            onClick={()=>{window.open("//api.whatsapp.com/send?phone=918973815197&text=Hi Harish!! Can we have a quick chat?")}}
             className='bg-gradient-to-r from-green-400 to-blue-500 text-white
             transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>Contact With Me</button>
             <button
+            onClick={()=>{window.open("https://drive.google.com/drive/folders/1qFb072n3_QhFUZ1XnXSQSPry41LjQojf?usp=sharing")}}
             className='bg-gradient-to-r from-pink-500 to-yellow-500 text-white
             transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>Resume</button>
         </div>

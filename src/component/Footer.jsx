@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return <>
@@ -13,7 +13,7 @@ function Footer() {
               software development.
             </p>
           </div>
-          <div className="flex-1 w-full">
+          {/* <div className="flex-1 w-full">
             <form className="flex items-center justify-center">
               <input
                 type="email"
@@ -29,7 +29,7 @@ function Footer() {
                 Subscribe
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
 
         <div
@@ -40,10 +40,10 @@ function Footer() {
             &copy; {new Date().getFullYear()} Harish Corporation. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://linkedin.com/in/harish-raajaa-r-v-527832107" className="text-gray-400 hover:text-white">
               <FaLinkedin />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://github.com/harishraajaa" className="text-gray-400 hover:text-white">
               <FaGithub />
             </a>
           </div>

@@ -50,7 +50,9 @@ function Contact() {
                     rows="5"
                     placeholder='Enter You Message'/>
                 </div>
-                <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline
+                <button 
+                onClick={()=>{window.location.href = "mailto:rvharishraajaa@gmail.com?subject=Gone thru your Portfolio&body=message%20goes%20here"}}
+                className='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline
             transform transition-transform duration-300 hover:scale-105 px-8 py-2 rounded-full'>Send</button>
             </form>
           </div>
